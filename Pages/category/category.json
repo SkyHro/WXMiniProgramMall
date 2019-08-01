@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "my-category": "./childCops/my-category/my-category",
+    "my-cate-data": "./childCops/my-cate-data/my-cate-data",
+    "my-goods": "/components/my-goods/my-goods"
+  },
+  "navigationBarTitleText": "分类列表"
+}

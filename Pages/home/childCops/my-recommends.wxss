@@ -1,0 +1,16 @@
+/* Pages/home/childCops/my-recommends.wxss */
+.recommend {
+  display: flex;
+  padding-bottom: 30rpx;
+  border-bottom: 16rpx solid #ddd;
+}
+.recommend-item {
+  flex: 1;
+  text-align: center;
+  font-size: 30rpx;
+  color: #777;
+}
+.recommend-item image {
+  width: 85%;
+  margin: 20rpx 0 10rpx;
+}

@@ -1,0 +1,15 @@
+<!--Pages/profile/childCops/my-balance.wxml-->
+<view class="balance">
+  <view class="balance-item">
+    <text class="text">0.00</text>元
+    <view>我的余额</view>
+  </view>
+  <view class="balance-item">
+    <text class="text">0</text>个
+    <view>我的优惠</view>
+  </view>
+  <view class="balance-item">
+    <text class="text">0</text>分
+    <view>我的积分</view>
+  </view>
+</view>

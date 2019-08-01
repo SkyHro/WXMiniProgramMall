@@ -1,0 +1,21 @@
+<!--Pages/details/childCops/my-tools/my-tools.wxml-->
+<view class="others">
+  <view class="store">
+    <view>
+      <image class="img" hidden="{{isHidden}}" src="/assets/images/detail/service.png" mode="widthFix"/>
+      <view class="text">客服</view>
+    </view>
+    <view>
+      <image class="img" hidden="{{isHidden}}" src="/assets/images/detail/shop.png" mode="widthFix"/>
+      <view class="text">店铺</view>
+    </view>
+    <view>
+      <image class="img" hidden="{{isHidden}}" src="/assets/images/detail/collect.png" mode="widthFix" bindload="imageLoaded"/>
+      <view class="text">收藏</view>
+    </view>
+  </view>
+  <view class="purchase">
+    <text catch:tap="handleCartClick">加入购物车</text>
+    <text>购买</text>
+  </view>
+</view>

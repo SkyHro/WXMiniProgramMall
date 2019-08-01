@@ -1,0 +1,9 @@
+<!--Pages/category/childCops/my-category-data/my-cate-data.wxml-->
+<view class="category">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class="category-item">
+      <image class="img" src="{{item.image}}" mode="widthFix"/>
+      <text class="title">{{item.title}}</text>
+    </view>
+  </block>
+</view>

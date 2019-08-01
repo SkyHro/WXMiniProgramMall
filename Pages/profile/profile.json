@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "my-user": "./childCops/my-user/my-user",
+    "my-balance": "./childCops/my-balance/my-balance",
+    "my-action": "./childCops/my-action/my-action"
+  },
+  "navigationBarTitleText": "我的信息"
+}

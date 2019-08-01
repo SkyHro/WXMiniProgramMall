@@ -1,0 +1,20 @@
+/* components/my-tabbar/my-tabbar.wxss */
+/* tabBar切换样式 */
+.tabbar {
+  display: flex;
+  padding: 20rpx 32rpx;
+  font-size: 30rpx;
+  color: #777;
+  background: #fff;
+}
+.tabbar-item {
+  flex: 1;
+  text-align: center;
+}
+.tabbar-item .active {
+  color: #ff5777;
+  border-bottom: 6rpx solid #ff5777;
+}
+.tabbar-item text {
+  padding: 0 16rpx 8rpx;
+}

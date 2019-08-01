@@ -1,0 +1,39 @@
+/* Pages/profile/childCops/my-user/my-user.wxss */
+.info {
+  padding: 20rpx 40rpx 0;
+  background: #ff5777;
+  height: 200rpx;
+  box-sizing: border-box;
+}
+.info-left {
+  color: #eee;
+  display: inline-block;
+  width: 80%;
+}
+.info-left .avatar {
+  width: 150rpx;
+  background: #eee;
+  border-radius: 50%;
+  float: left;
+  margin-right: 40rpx;
+}
+.login,
+.regist {
+  font-size: 36rpx;
+  line-height: 90rpx;
+}
+.info-left .phone {
+  width: 40rpx;
+  vertical-align: text-bottom;
+  margin-right: 10rpx;
+  margin-left: -5rpx;
+}
+.info-right {
+  float: right;
+  line-height: 180rpx;
+  vertical-align: center;
+}
+.info-right .arrow {
+  width: 60rpx;
+  vertical-align: center;
+}

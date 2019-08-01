@@ -1,0 +1,2 @@
+<!--Pages/cart/my-choice/my-choice.wxml-->
+<view class="choice {{isActive ? 'active' : ''}}"></view>

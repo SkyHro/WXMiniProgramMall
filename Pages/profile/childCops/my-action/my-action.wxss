@@ -1,0 +1,18 @@
+/* Pages/profile/childCops/my-action/my-action.wxss */
+.action {
+  border-top: 20rpx solid #eee;
+  padding-left: 20rpx;
+  font-size: 34rpx;
+}
+.action-item {
+  border-bottom: 2rpx solid #eee;
+  line-height: 100rpx;
+}
+.action-item .img {
+  width: 40rpx;
+  vertical-align: text-bottom;
+  margin-right: 10rpx;
+}
+.action-item:nth-last-of-type(1) {
+  border: none;
+}

@@ -1,0 +1,25 @@
+/* Pages/cart/childCops/my-accounts/my-accounts.wxss */
+.accounts {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #eee;
+  line-height: 100rpx;
+  font-size: 28rpx;
+}
+.select {
+  display: inline-block;
+}
+.accounts .select-all {
+  margin-left: 70rpx;
+  color: #777;
+}
+.accounts .total-price {
+  margin-left: 40rpx;
+}
+.accounts .go {
+  padding: 0 60rpx;
+  background: rgb(255, 123, 0);
+  color: #eee;
+  float: right;
+}

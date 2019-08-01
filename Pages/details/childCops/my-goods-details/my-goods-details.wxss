@@ -1,0 +1,49 @@
+/* Pages/details/childCops/my-goods-details.wxss */
+swiper {
+  height: 600rpx;
+}
+.descript {
+  font-size: 32rpx;
+  padding: 8rpx 16rpx;
+  border-bottom: 14rpx solid #eee;
+}
+.descript .price {
+  color: #ff5777;
+  padding-right: 20rpx;
+}
+.descript .orgPrice {
+  color: #777;
+  text-decoration: line-through;
+}
+.descript .sell {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  display: flex;
+  padding-bottom: 20rpx;
+  border-bottom: 8rpx solid #eee;
+}
+.descript .sell text {
+  flex: 1;
+}
+.descript .sell text:nth-of-type(2) {
+  text-align: center;
+}
+.descript .sell text:nth-of-type(3) {
+  text-align: right;
+}
+.descript .logistics {
+  font-size: 28rpx;
+  padding: 20rpx 0 40rpx;
+  display: flex;
+}
+.logistics view {
+  flex: 1;
+}
+.logistics view:nth-of-type(2) {
+  text-align: right;
+}
+.logistics .icon {
+  width: 24rpx;
+  vertical-align: center;
+  margin-right: 10rpx;
+}

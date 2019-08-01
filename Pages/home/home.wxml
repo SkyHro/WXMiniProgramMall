@@ -1,0 +1,29 @@
+<!--Pages/home/home.wxml-->
+<!-- 轮播图开始 -->
+<my-swiper class="swiper" list="{{bannerImgs}}"/>
+<!-- 轮播图结束 -->
+
+<!-- 推荐页面开始 -->
+<my-recommends id="recommends" recommends="{{recommends}}" bind:imageload="handleImageLoad"/>
+<!-- 推荐页面结束 -->
+
+<!-- 本周流行页面开始 -->
+<view class="flu">
+  <image src="/assets/images/home/recommend_bg.jpg" mode="widthFix"></image>
+</view>
+<!-- 本周流行页面结束 -->
+
+<!-- tabBar切换／滚动停留开始 -->
+<my-tabbar id="tab-control" class="{{isShowTab ? 'tabbar' : ''}}" titles="{{titles}}" catch:tabbarClick="handleTabbarClick"/>
+<my-tabbar titles="{{titles}}" wx:if="{{isShowTab}}"/>
+<!-- tabBar切换／滚动停留结束 -->
+
+<!-- 商品列表开始 -->
+<my-goods goods="{{goods[currentList].list}}"/>
+<!-- 商品列表结束 -->
+
+<!-- 返回顶部开始 -->
+<view class="return-top" hidden="{{!isShowTop}}">
+  <image src="/assets/images/common/top.png" mode="widthFix" catch:tap="handleScrollTop"/>
+</view> 
+<!-- 返回顶部结束 -->

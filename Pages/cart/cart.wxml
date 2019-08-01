@@ -1,0 +1,8 @@
+<!--Pages/cart/cart.wxml-->
+<!-- 购物车列表开始 -->
+<my-cart-list id="list" cartList="{{cartList}}" selectAll="{{selectAll}}" bind:listclick="handleListClick" bind:pushdata="handleGetData" bind:listall="handleListAll"/>
+<!-- 购物车列表结束 -->
+
+<!-- 底部结算开始 -->
+<my-accounts bind:selectall="handleSelectAll" selectAll="{{selectAll}}" selectNum="{{selectNum}}" totalPrice="{{totalPrice}}"/>
+<!-- 底部结算结束 -->

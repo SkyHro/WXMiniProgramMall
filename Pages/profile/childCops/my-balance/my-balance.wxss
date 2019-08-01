@@ -1,0 +1,19 @@
+/* Pages/profile/childCops/my-balance.wxss */
+.balance {
+  display: flex;
+}
+.balance-item {
+  flex: 1;
+  border-right: 5rpx solid #eee;
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  padding: 40rpx 0;
+}
+.balance-item:nth-last-of-type(1) {
+  border: none;
+}
+.balance-item .text {
+  color: #ff5777;
+  font-size: 36rpx;
+}

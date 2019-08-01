@@ -1,0 +1,17 @@
+<!--Pages/cart/childCops/my-cart-list/my-cart-list.wxml-->
+<scroll-view class="scroll-view" scroll-y>
+  <view class="cartList" wx:for="{{cartList}}" wx:key="{{index}}">
+    <view bind:tap="handleListClick" data-index="{{index}}">
+      <my-choice isActive="{{selectAll || isActive[index]}}"/>
+      <image class="img" src="{{item.img}}" mode="widthFix"/>
+      <view class="des">
+        <view class="title">{{item.title}}</view>
+        <view class="detail">{{item.desc}}</view>
+        <view class="data">
+          <text class="price">￥{{item.price}}</text>
+          <text class="number">x1</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

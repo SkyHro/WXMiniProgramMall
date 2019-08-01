@@ -1,0 +1,9 @@
+<!--Pages/cart/childCops/my-accounts/my-accounts.wxml-->
+<view class="accounts">
+  <view class="select" bind:tap="handleSelectAll">
+    <my-choice id="choice" isActive="{{selectAll}}"/>
+    <text class="select-all">全选</text>
+  </view>
+  <text class="total-price">总记:￥{{totalPrice}}</text>
+  <view class="go">去结算({{selectNum}})</view>
+</view>

@@ -1,0 +1,4 @@
+page {
+  color: #333333;
+  font-size: 30rpx;
+}

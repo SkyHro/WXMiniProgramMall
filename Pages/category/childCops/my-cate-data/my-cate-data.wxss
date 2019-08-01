@@ -1,0 +1,16 @@
+/* Pages/category/childCops/my-category-data/my-cate-data.wxss */
+.category {
+  font-size: 28rpx;
+  color: #777;
+}
+.category-item {
+  width: 33%;
+  display: inline-block;
+  padding: 8rpx 16rpx;
+  box-sizing: border-box;
+  text-align: center;
+}
+.category-item .img {
+  width: 100%;
+  margin: 14rpx 0 6rpx;
+}

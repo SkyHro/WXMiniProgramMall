@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-details": "./childCops/my-goods-details/my-goods-details",
+    "my-tools": "./childCops/my-tools/my-tools"
+  },
+  "navigationBarTitleText": "商品详情"
+}

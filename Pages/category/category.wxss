@@ -1,0 +1,10 @@
+/* Pages/category/category.wxss */
+page {
+  height: 100%;
+  overflow: hidden;
+}
+.details {
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+}

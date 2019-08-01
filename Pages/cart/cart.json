@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-accounts": "./childCops/my-accounts/my-accounts",
+    "my-cart-list": "./childCops/my-cart-list/my-cart-list"
+  },
+  "navigationBarTitleText": "购物车"
+}

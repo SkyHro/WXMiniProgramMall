@@ -1,0 +1,22 @@
+/* Pages/home/home.wxss */
+swiper {
+  height: 350rpx;
+}
+.flu image {
+  width: 100%;
+}
+.return-top {
+  position: fixed;
+  bottom: 40rpx;
+  right: 20rpx;
+}
+.return-top image {
+  width: 100rpx;
+}
+.tabbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}

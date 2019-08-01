@@ -1,0 +1,9 @@
+<!--Pages/profile/childCops/my-action/my-action.wxml-->
+<view class="action">
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <view class="action-item">
+      <image class="img" src="{{item.img}}" mode="widthFix"/>
+      <text class="title">{{item.title}}</text>
+    </view>
+  </block>
+</view>

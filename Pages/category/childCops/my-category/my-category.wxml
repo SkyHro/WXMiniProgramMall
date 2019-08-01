@@ -1,0 +1,6 @@
+<!--Pages/category/childCops/my-category/my-category.wxml-->
+<scroll-view class="category" scroll-y scroll-with-animation>
+  <view class="category-item {{isActive == index ? 'active' : ''}}" catchtap="handleClick" data-index="{{index}}" wx:for="{{category}}" wx:key="{{index}}">
+    <text>{{item.title}}</text>
+  </view>
+</scroll-view>

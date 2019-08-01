@@ -1,0 +1,39 @@
+/* Pages/details/childCops/my-tools/my-tools.wxss */
+.others {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120rpx;
+  display: flex;
+  text-align: center;
+  font-size: 34rpx;
+  color: #777;
+  border-top: 2rpx solid #ddd;
+}
+.others>view {
+  flex: 1;
+  display: flex;
+}
+.store>view {
+  flex: 1;
+}
+.store .img {
+  width: 50rpx;
+  margin-top: 15rpx;
+}
+.purchase {
+  flex: 1;
+  display: flex;
+}
+.purchase text {
+  flex: 1;
+  line-height: 120rpx;
+}
+.purchase text:nth-of-type(1) {
+  background: #f5f500;
+}
+.purchase text:nth-of-type(2) {
+  background: #ff5777;
+  color: #eee;
+}

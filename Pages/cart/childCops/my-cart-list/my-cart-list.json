@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-choice": "../my-choice/my-choice"
+  }
+}

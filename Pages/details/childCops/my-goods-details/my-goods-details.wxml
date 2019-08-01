@@ -1,0 +1,36 @@
+<!--Pages/details/childCops/my-goods-details.wxml-->
+<!-- 使用wxs实现纯数字判断开始 -->
+<!-- 使用wxs实现纯数字判断结束 -->
+
+<!-- 商品详情轮播图开始 -->
+<my-swiper list="{{bannerImgs}}"/>
+<!-- 商品详情轮播图结束 -->
+
+<!-- 商品信息开始 -->
+<view class="descript">
+  <!-- 商品标题 -->
+  <view class="title">{{details.title}}</view>
+  <!-- 商品价格 -->
+  <view>
+    <text class="price">￥{{details.price}}</text>
+    <text class="orgPrice">￥{{details.orgPrice}}</text>
+  </view>
+  <!-- 商品销售情况 -->
+  <view class="sell">
+    <text>{{details.cfav[0]}}</text>
+    <text>{{details.cfav[1]}}</text>
+    <text>{{details.cfav[2]}}</text>
+  </view>
+  <!-- 商品物流信息 -->
+  <view class="logistics">
+    <view>
+      <image class="icon" src="/assets/images/detail/true.png" mode="widthFix" hidden="{{!isIconLoad}}" bindload="handleIconLoad"/>
+      <text>72小时发货</text>
+    </view>
+    <view>
+      <image class="icon" src="/assets/images/detail/true.png" hidden="{{!isIconLoad}}" mode="widthFix"/>
+      <text>退货补运费</text>
+    </view>
+  </view>
+</view>
+<!-- 商品信息结束 -->

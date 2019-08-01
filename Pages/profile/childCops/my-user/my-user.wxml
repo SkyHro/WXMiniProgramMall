@@ -1,0 +1,18 @@
+<!--Pages/profile/childCops/my-user/my-user.wxml-->
+<view class="info">
+    <view class="info-left">
+      <image class="avatar" src="/assets/images/profile/avatar.png" mode="widthFix" hidden="{{isHidden}}" bindload="handleImageLoaded"/>
+      <view>
+        <text class="login">登录</text>
+        <text>/</text>
+        <text class="regist">注册</text>
+        <view>
+          <image class="phone" src="/assets/images/profile/phone.png" mode="widthFix" hidden="{{isHidden}}"/>
+          <text>暂无绑定手机号</text>
+        </view>
+      </view>
+    </view>
+    <view class="info-right">
+      <image class="arrow" src="/assets/images/common/arrow-right.png" mode="widthFix"/>
+    </view>
+  </view>

@@ -1,0 +1,14 @@
+/* Pages/cart/my-choice/my-choice.wxss */
+.choice {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: #f9f9f9;
+  position: absolute;
+  top: 50%;
+  margin-top: -20rpx;
+  margin-left: 20rpx;
+}
+.active {
+  background: #ff5777;
+}

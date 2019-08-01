@@ -1,0 +1,8 @@
+<!--Pages/details/details.wxml-->
+<!-- 商品基础信息展示开始 -->
+<my-details bannerImgs="{{bannerImgs}}" details="{{goodsDetails}}"/>
+<!-- 商品基础信息展示结束 -->
+
+<!-- 底部功能按钮开始 -->
+<my-tools catch:cartclick="handleCartClick"/>
+<!-- 底部功能按钮结束 -->

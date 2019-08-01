@@ -1,0 +1,16 @@
+<!--Pages/category/category.wxml-->
+<!-- 左侧商品分类列表开始 -->
+<my-category class="category" catch:tabclick="handleTabClick" category="{{categories}}"/>
+<!-- 左侧商品分类列表结束 -->
+
+<!-- 右侧商品详情开始 -->
+<scroll-view class="details" scroll-y>
+  <!-- 顶部商品分类开始 -->
+    <my-cate-data list="{{categoryData[currentIndex].subcategories}}"/>
+  <!-- 顶部商品分类结束 -->
+
+  <!-- 商品底部商品详细信息开始 -->
+    <my-goods goods="{{categoryData[currentIndex].catagoryDetail}}"/>
+  <!-- 商品底部商品详细信息结束 -->
+</scroll-view>
+<!-- 右侧商品详情结束 -->

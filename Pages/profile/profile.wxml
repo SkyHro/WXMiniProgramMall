@@ -1,0 +1,15 @@
+<!--Pages/profile/profile.wxml-->
+<view class="userInfo">
+  <!-- 顶部登录框开始 -->
+  <my-user/>
+  <!-- 顶部登录框结束 -->
+
+  <!-- 余额开始 -->
+  <my-balance/>
+  <!-- 余额结束 -->
+</view>
+
+<!-- 功能按钮开始 -->
+<my-action list="{{actionList1}}"/>
+<my-action list="{{actionList2}}"/>
+<!-- 功能按钮结束 -->

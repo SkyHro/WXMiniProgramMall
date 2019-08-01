@@ -1,0 +1,10 @@
+<!--components/my-goods-item/my-goods-item.wxml-->
+<view class="goods-item" catch:tap="goodsItemClick">
+  <image bindload="imageLoaded" class="goods-img" src="{{isLoaded ? (item.show.img ? item.show.img : item.img) : loading}}" lazy-load mode="widthFix"/>
+  <view class="goods-des">
+    <view class="goods-title">{{item.title}}</view>
+    <text class="goods-price">￥{{item.price}}</text>
+    <image class="goods-fav-img" src="/assets/images/common/favor.png" mode="widthFix"/>
+    <text class="goods-fav">{{item.cfav}}</text>
+  </view>
+</view>
